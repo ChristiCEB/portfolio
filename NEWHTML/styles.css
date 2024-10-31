@@ -1,0 +1,137 @@
+:root
+{
+    --FM: 
+}
+.NavBar
+{
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.img1
+{
+    display: flex;
+    width: max-content;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    flex-grow: 0.06;
+}
+.maininnhold
+{
+    display: flex;
+    flex-grow: 10;
+    padding: 20px;
+    border: solid black;
+    background-color: white;
+    border-radius: 10px;
+    height: 750px;
+}
+.main-page
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+.mainbar
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 40;
+}
+.main-section
+{
+    display: flex;
+    flex-direction: row;
+}
+.infobar
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1px;
+    gap: 20px;
+}
+.info1
+{
+    display: flex;
+    flex-grow: 0.07;
+    border: solid black;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+.info2
+{
+    display: flex;
+    flex-grow: 0.05;
+    border: solid black;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.info2sub
+{
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.info3
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+span
+{
+    font-weight: bold;
+}
+.nav ul a
+{
+padding: 0px 10px;
+text-decoration: none;
+color: black;
+}
+.nav ul a:hover
+{
+color: rgb(120, 145, 213);
+}
+#tittel
+{
+    font-size: xx-large;
+}
+#tittelboks
+{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+body
+{
+    margin: 0px; padding: 0px;
+    background-color: rgb(206, 206, 206);
+}
+#bildeavmeg
+{
+    width: 300px;
+    height: 300px;
+    border: solid black;
+    border-radius: 10px;
+}
